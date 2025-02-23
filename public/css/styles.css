@@ -168,9 +168,12 @@ section {
   position: relative;
 }
 
-section.introduction h2,
-section.introduction h3 {
+section.introduction h2 {
   font-size: 2em;
+}
+
+section.introduction h3 {
+  font-size: 1.5em;
 }
 
 section.introduction article {
