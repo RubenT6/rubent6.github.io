@@ -22,29 +22,66 @@
 
     </header>
     <main class="flex_main">
-      	<section class="introduction">
-		<div class="inner">
-		<h2>Publications (<a href="https://dblp.org/pid/325/3093.html">DBLP</a>)</h2>
+      <section class="introduction">
+	<div class="inner">
+		<h2>Publications (fetched from <a href="https://dblp.org/pid/325/3093.html">DBLP</a>)</h2>
+		<!-- <ul style="line-height: 1.6;"> -->
+		<!-- <li>Corecursion up-to via Causal Transformations<br><em>Damien Pous, Jurriaan Rot, Ruben -->
+		<!-- Turkenburg</em><br>(presented at <a href="https://www.coalg.org/cmcs22/">CMCS '22</a>, <a -->
+		<!-- href="https://doi.org/10.1007/978-3-031-10736-8_7">DOI</a>)</li> -->
+		<!-- <li>Preservation and Reflection of Bisimilarity via Invertible Steps<br><em>Ruben Turkenburg, Clemens Kupke, -->
+		<!-- Jurriaan Rot, Ezra Schoen</em><br>(presented at <a href="https://etaps.org/2023/conferences/">FoSSaCS '23</a>, -->
+		<!-- <a href="https://doi.org/10.1007/978-3-031-30829-1_16">DOI</a>) -->
+		<!-- </li> -->
+		<!-- <li>Forward and Backward Steps in a Fibration<br><em>Ruben Turkenburg, Harsh Beohar, Clemens Kupke and Jurriaan -->
+		<!-- Rot</em><br>(<a href="https://coalg.org/calco-mfps-2023/">CALCO '23</a>, <a -->
+		<!-- href="https://doi.org/10.4230/LIPIcs.CALCO.2023.6">DOI</a>)</li> -->
+		<!-- <li>Proving Behavioural Apartness<br><em>Ruben Turkenburg, Harsh Beohar, Clemens Kupke and Jurriaan -->
+		<!-- Rot</em><br>(<a href="https://www.coalg.org/cmcs24/">CMCS '24</a>, <a -->
+		<!-- href="https://doi.org/10.1007/978-3-031-66438-0_8">DOI</a>)</li> -->
+		<!-- <li>A Categorical Approach to Coalgebraic Fixpoint Logic<br><em>Ezra Schoen, Clemens Kupke, Jurriaan Rot and Ruben -->
+		<!-- Turkenburg</em><br>(<a href="https://www.coalg.org/cmcs24/">CMCS '24</a>, <a -->
+		<!-- href="https://doi.org/10.1007/978-3-031-66438-0_2">DOI</a>)</li> -->
+		<!-- </ul> -->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+		<div class="bibtex_template">
+			<li>
+				<div style="font-weight: bold;">
+					<span class="title"></span>
+					<span class="if eprinttype">(<span class="eprinttype"></span> version)</span>
+				</div>
+				<div class="if author">
+					<span class="author" style="font-style: italic;"></span>
+					<span class="if url" style="margin-left: 20px">
+						<a class="url">(view online)</a>
+					</span>
+				</div>
+			</li>
+		</div>
+		<div class="bibtex_structure">
+			<div class="group year" extra="DESC number">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<bibtex src="/public/test.bib"></bibtex>
 		<ul style="line-height: 1.6;">
-			<li>Corecursion up-to via Causal Transformations<br><em>Damien Pous, Jurriaan Rot, Ruben Turkenburg</em><br>(presented at <a href="https://www.coalg.org/cmcs22/">CMCS '22</a>, <a href="https://doi.org/10.1007/978-3-031-10736-8_7">DOI</a>)</li>
-			<li>Preservation and Reflection of Bisimilarity via Invertible Steps<br><em>Ruben Turkenburg, Clemens Kupke, Jurriaan Rot, Ezra Schoen</em><br>(presented at <a href="https://etaps.org/2023/conferences/">FoSSaCS '23</a>, <a href="https://doi.org/10.1007/978-3-031-30829-1_16">DOI</a>)</li>
-			<li>Forward and Backward Steps in a Fibration<br><em>Ruben Turkenburg, Harsh Beohar, Clemens Kupke and Jurriaan Rot</em><br>(<a href="https://coalg.org/calco-mfps-2023/">CALCO '23</a>, <a href="https://doi.org/10.4230/LIPIcs.CALCO.2023.6">DOI</a>)</li>
-			<li>Proving Behavioural Apartness<br><em>Ruben Turkenburg, Harsh Beohar, Clemens Kupke and Jurriaan Rot</em><br>(<a href="https://www.coalg.org/cmcs24/">CMCS '24</a>, <a href="https://doi.org/10.1007/978-3-031-66438-0_8">DOI</a>)</li>
-			<li>A Categorical Approach to Coalgebraic Fixpoint Logic<br><em>Ezra Schoen, Clemens Kupke, Jurriaan Rot and Ruben Turkenburg</em><br>(<a href="https://www.coalg.org/cmcs24/">CMCS '24</a>, <a href="https://doi.org/10.1007/978-3-031-66438-0_2">DOI</a>)</li>
+			<div id="bibtex_display"></div>
 		</ul>
-			<h2>Talks</h2>
-			<ul style="line-height: 1.6;">
-				<li>Corecursion up-to via Causal Transformations, presented at CMCS '22</li>
-				<li>Preservation and Reflection of Bisimilarity via Invertible Steps, presented at NetTCS seminar 2022-12</li>
-				<li>Preservation and Reflection of Bisimilarity via Invertible Steps, presented at FoSSaCS '23</li>
-				<li>Forward and Backward Steps in a Fibration, presented at University of Sheffield seminar</li>
-				<li>Forward and Backward Steps in a Fibration, presented at CALCO '23</li>
-				<li>Proving Behavioural Apartness, presented at CMCS '24</li>
-			</ul>
+		<h2>Talks</h2>
+		<ul style="line-height: 1.6;">
+			<li>Corecursion up-to via Causal Transformations, presented at CMCS '22</li>
+			<li>Preservation and Reflection of Bisimilarity via Invertible Steps, presented at NetTCS seminar 2022-12</li>
+			<li>Preservation and Reflection of Bisimilarity via Invertible Steps, presented at FoSSaCS '23</li>
+			<li>Forward and Backward Steps in a Fibration, presented at University of Sheffield seminar</li>
+			<li>Forward and Backward Steps in a Fibration, presented at CALCO '23</li>
+			<li>Proving Behavioural Apartness, presented at CMCS '24</li>
+		</ul>
 		<h2>Visits</h2>
 		<ul style="line-height: 1.6;">
-				<li>(2024-09 &#8212; 2024-11) Visiting <a href="https://www.kyoto-su.ac.jp/index-e.html">Kyoto Sangyo University</a> hosted by <a href="https://group-mmm.org/~s-katsumata/index-e.html">Shin-ya Katsumata</a></li>
-				<li>(2024-11 &#8212; 2024-12) Visiting <a href="https://www.nii.ac.jp/en/">NII</a> in Tokyo hosted by <a href="https://group-mmm.org/~ichiro/">Ichiro Hasuo</a></li>
+			<li>(2024-09 &#8212; 2024-11) Visiting <a href="https://www.kyoto-su.ac.jp/index-e.html">Kyoto Sangyo
+					University</a> hosted by <a href="https://group-mmm.org/~s-katsumata/index-e.html">Shin-ya Katsumata</a></li>
+			<li>(2024-11 &#8212; 2024-12) Visiting <a href="https://www.nii.ac.jp/en/">NII</a> in Tokyo hosted by <a
+					href="https://group-mmm.org/~ichiro/">Ichiro Hasuo</a></li>
 		</ul>
 		<h2>Teaching</h2>
 		<ul style="line-height: 1.6;">
@@ -54,12 +91,11 @@
 		</ul>
 		<h2>Organisation</h2>
 		<ul style="line-height: 1.6;">
-				<li>Co-organisor of <a href="https://nettcs.cs.ru.nl">NetTCS seminar</a></li>
-				<li>Co-organisor of Software Science department <a href="https://sws.cs.ru.nl/SWSSeminar">seminar</a></li>
+			<li>Co-organisor of <a href="https://nettcs.cs.ru.nl">NetTCS seminar</a></li>
+			<li>Co-organisor of Software Science department <a href="https://sws.cs.ru.nl/SWSSeminar">seminar</a></li>
 		</ul>
 	</div>
 </section>
-
     </main>
     <footer>
       <div class="inner">
