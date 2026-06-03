@@ -155,7 +155,7 @@ hr {
 
 table {
   margin: auto;
-  table-layout: fixed;
+  table-layout: auto;
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   width: 90%;
